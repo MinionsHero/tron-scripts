@@ -1,0 +1,38 @@
+{
+    "extends": "ts-node/node12/tsconfig.json",
+    "ts-node": {
+        "transpileOnly": true,
+        "files": true,
+        "require": [
+            "tsconfig-paths/register"
+        ]
+    },
+    "compilerOptions": {
+        "target": "es2020",
+        "module": "commonjs",
+        "strict": true,
+        "strictNullChecks": true,
+        "esModuleInterop": true,
+        "outDir": "dist",
+        "noImplicitAny": true,
+        "resolveJsonModule": true,
+        "checkJs": true,
+        "allowJs": true,
+        "skipLibCheck": false,
+        "baseUrl": ".",
+        "paths": {
+            "*": [
+                "*",
+                "src/*"
+            ]
+        }
+    },
+    "include": [
+        "src/**/*",
+        "test/**/*",
+        "src/utils/ora/.js"
+    ],
+    "exclude": [
+        "dist/**/*"
+    ]
+}

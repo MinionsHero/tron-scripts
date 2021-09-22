@@ -1,0 +1,43 @@
+{
+  "name": "temp_scripts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "exec-contract-script": "NET_NAME=Main npx ts-node ./src/exec/example.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/defaults": "^1.0.3",
+    "better-sqlite3": "^7.4.3",
+    "chalk": "^4.1.2",
+    "cli-spinners": "^2.6.0",
+    "defaults": "^1.0.3",
+    "delay": "^5.0.0",
+    "dotenv": "^10.0.0",
+    "enquirer": "^2.3.6",
+    "fast-safe-stringify": "^2.1.1",
+    "lodash": "^4.17.21",
+    "moment": "^2.29.1",
+    "node-emoji": "^1.11.0",
+    "node-xlsx": "^0.17.2",
+    "promise-queue": "^2.2.5",
+    "restore-cursor": "^4.0.0",
+    "signal-exit": "^3.0.4",
+    "tronweb": "^4.0.0",
+    "tsconfig-paths": "^3.11.0"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.4.0",
+    "@types/fs-extra": "^9.0.13",
+    "@types/lodash": "^4.14.173",
+    "@types/node-emoji": "^1.8.1",
+    "@types/node-xlsx": "^0.15.2",
+    "@types/promise-queue": "^2.2.0",
+    "fs-extra": "^10.0.0",
+    "ts-node": "^10.2.1",
+    "type-fest": "^2.3.4"
+  }
+}

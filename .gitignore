@@ -1,0 +1,14 @@
+
+cache
+log
+output
+node_modules
+dist/
+build/
+.vscode
+.idea
+.DS_Store
+coverage
+.coverage_artifacts
+.coverage_cache
+.coverage_contracts
